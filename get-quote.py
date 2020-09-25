@@ -3,12 +3,8 @@ def primery():
 
     f = open("quotes.txt")
     quotes = f.readlines()
-    print(quotes[0])
-
     f.close()
-
-    print(quotes)
-
+    print(quotes[0])
 #if __name__== "__main__":
   #main()
 
